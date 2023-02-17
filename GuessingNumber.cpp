@@ -12,7 +12,8 @@ int main (){
 	int first =  1; 
 	int last  =  100;
 	int count = 0;
-	// first == last, then it must be working.
+	// first == last, then  we've found the number :).
+	// the number of tries mustn't exceed 7, because of O(log(n)) "growing Logarithmically". 
 	while(first != last) {
 		int mid = (first + last ) / 2 ; 
 		string ans = "" ;
